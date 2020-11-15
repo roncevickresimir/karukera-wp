@@ -1,0 +1,44 @@
+/*
+Theme Name: Intentionally Blank
+Theme URI: https://www.nilovelez.com/portfolio/blank/
+Author: Nilo Velez
+Author URI: https://www.nilovelez.com/
+Description: This theme was intentionally left blank. There are times when all you need is the WordPress dashboard and an blank frontend. You might be using the WordPress REST API as a backend for a mobile App or you might be a minimalism obsessed hipster. This is your theme.
+Version: 2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, theme-options, translation-ready
+Text Domain: intentionally-blank
+Requires at least: 4.6
+Tested up to: 5.5
+Requires PHP: 5.6
+*/
+html,body{min-height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-size:13px;line-height:1.4em;margin:0}
+body{background-color: #f5f5f5; background-size:cover}
+.site-title-bg{background:rgba(0,0,0,0.5);color:#fff;padding:5px}
+.site-title h1,.site-title p{font-size:16px;display:inline-block;padding:5px 0 5px 5px;margin:0}
+.site-title h1 a{color:#fff;font-weight:700;text-decoration:none}
+.custom-logo{display:block;position:absolute;left:50%;top:50%;-ms-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);max-width:100%;height:auto}
+#colophon{position:absolute;width:100%;left:0;bottom:0;padding:10px 0;text-align:center;color:#333;background-color:rgba(241,241,241,0.4)}
+#colophon a{text-decoration:none; color: #333;}
+.flip {
+    animation: grow 1s forwards;
+}
+.flip-reverse {
+    animation: grow-reverse 2s ease-in forwards;
+}
+.active{opacity:1;}
+@keyframes grow {
+    from {transform: scale(0);
+        z-index: 9;}
+    to {transform: scale(1);
+        z-index: 9;}
+}
+@keyframes grow-reverse {
+    from {
+        transform: scale(1);
+        z-index: 8;}
+    to {
+        transform: scale(0);
+        z-index: 8;}
+}
